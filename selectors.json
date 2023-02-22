@@ -1,0 +1,32 @@
+{
+    "homePage": {
+        "inputLink": "a[href='/edit']",
+        "buttonLink": "a[href='/buttons']",
+        "selectLink": "a[href='/dropdowns']",
+        "alertLink": "a[href='/alert']",
+        "frameLink": "a[href='/frame']",
+        "radioLink": "a[href='/radio']",
+        "windowLink": "a[href='/windows']",
+        "elementsLink": "a[href='/elements']",
+        "dragLink": "a[href='/draggable']",
+        "dropLink": "a[href='/dropable']",
+        "sortLink": "a[href='/sortable']",
+        "multiselectLink": "a[href='/selectable']",
+        "sliderLink": "a[href='/slider']",
+        "simpleTableLink": "a[href='/table']",
+        "advancedTableLink": "a[href='/advancedtable']",
+        "calendarLink": "a[href='/calendar']",
+        "waitsLink": "a[href='/waits']",
+        "formsLink": "a[href='/forms']",
+        "fileLink": "a[href='/file']",
+        "shadowLink": "a[href='/shadow']"
+    },
+    "inputPage":{
+        "fullNameInput": "#fullName",
+        "appendInput": "#join",
+        "textboxInput": "#getMe",
+        "clearTextInput": "#clearMe",
+        "noEditFieldInput": "#noEdit",
+        "readOnlyInput": "#dontwrite"
+    }
+}

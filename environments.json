@@ -1,0 +1,6 @@
+{
+    "envURLs": {
+        "dev": " ",
+        "prod": "https://letcode.in/test"
+    }
+}

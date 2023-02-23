@@ -1,4 +1,4 @@
-import { Locator, Page } from "@playwright/test";
+import { Page } from "@playwright/test";
 import * as selectors from '../selectors.json';
 import { Input } from '../enums/input.enum';
 

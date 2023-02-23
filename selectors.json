@@ -28,5 +28,14 @@
         "clearTextInput": "#clearMe",
         "noEditFieldInput": "#noEdit",
         "readOnlyInput": "#dontwrite"
+    },
+    "buttonsPage":{
+        "goToHomeBtn": "#home",
+        "findLocationBtn": "#position",
+        "findColorBtn": "#color",
+        "findDimensionsBtn": "#property",
+        "disabledBtn": "//button[@title='Disabled button']",
+        "beforePressingBtn": "button:has-text('Button Hold!')",
+        "afterPressingBtn": "button:has-text('Button has been long pressed')"
     }
 }

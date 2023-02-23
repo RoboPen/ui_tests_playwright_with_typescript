@@ -1,0 +1,9 @@
+export enum Button {
+    GO_TO_HOME,
+    FIND_LOCATION,
+    FIND_COLOR,
+    FIND_DIMENSIONS,
+    DISABLED,
+    BEFORE_PRESS_AND_HOLD,
+    AFTER_PRESS_AND_HOLD
+}

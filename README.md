@@ -14,19 +14,20 @@
 `npx playwright test`
 - run tests with browser GUI  
 `npx playwright test --headed`
-- run specific test file
+- run specific test file  
 `npx playwright test file_name.ts`
-- run test with the title
+- run test with the title  
 `npx playwright test -g "title"`
-- run tests with specific tag
+- run tests with specific tag  
 `npx playwright test -g "@tagname"`
-- run on specific browser
+- run on specific browser  
 `npx playwright test --project=chromium`
 - view report  
 `npx playwright show-report`
 
 ## Playwright Config modifications
-- config file `playwright.config.ts`
+- config file   
+`playwright.config.ts`
 - disable browsers, i.e. Firefox  
     ```javascript
     // {

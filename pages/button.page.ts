@@ -1,4 +1,4 @@
-import { Page } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 import * as selectors from '../selectors.json';
 import { Button } from '../enums/button.enum';
 
@@ -20,11 +20,11 @@ export default class buttonsPage {
         [Button.AFTER_PRESS_AND_HOLD, selectors.buttonsPage.afterPressingBtn]
     ]);
 
-    findBtn(button : Button){
+    findBtn(button : Button) : Locator{
         return this.page.locator(this.buttonMap.get(button));
     }
 
-    async getTextFromBtn(button : Button){
+    async getTextFromBtn(button : Button) : Promise<string>{
         return await this.findBtn(button).innerText();
     }
 }

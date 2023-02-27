@@ -23,7 +23,7 @@ export default class InputPage {
         await this.page.locator(selectors.inputPage.fullNameInput).type(fullName);
     }
 
-    async getTextFromInput(input: Input){
+    async getTextFromInput(input: Input) : Promise<string>{
         return await this.page.locator(this.inputMap.get(input)).inputValue();
     }
 
@@ -38,16 +38,16 @@ export default class InputPage {
         await this.page.locator(this.inputMap.get(input)).clear();
     }
 
-    async isDisabled(input: Input){
+    async isDisabled(input: Input) : Promise<boolean>{
         return await this.page.locator(this.inputMap.get(input)).isDisabled();
     }
 
-    async isEditable(input: Input){
+    async isEditable(input: Input) : Promise<boolean>{
         return await this.page.locator(this.inputMap.get(input)).isEditable();
     }
 
-    async isTabKeyWorking(){
-        const list = await this.page.locator(".control > input").all();
+    async isTabKeyWorking() : Promise<boolean>{
+        const list = await this.page.locator(selectors.inputPage.allInputs).all();
         let list2:string[] = [];
         for(let i = 0; i < list.length; i++){
             await this.page.keyboard.press('Tab');
@@ -57,7 +57,7 @@ export default class InputPage {
         return !this.areDuplicates(list2)
 }
 
-    areDuplicates(array:string[]){
+    areDuplicates(array:string[]) : boolean{
         return new Set(array).size !== array.length;
     }
 }

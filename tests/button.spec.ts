@@ -39,7 +39,7 @@ test.describe('Testing buttons elements @button', () => {
         expect(color).toBe("rgb(138, 77, 118)");
     });
 
-    test.only('Task 4: Find dimensions of "How tall & fat I am?" button', async ({browserName}) => {
+    test('Task 4: Find dimensions of "How tall & fat I am?" button', async ({browserName}) => {
         test.skip(browserName === 'firefox' || browserName === 'webkit');
         const height = (await buttonPage.findBtn(Button.FIND_DIMENSIONS).boundingBox()).height;
         const width = (await buttonPage.findBtn(Button.FIND_DIMENSIONS).boundingBox()).width;

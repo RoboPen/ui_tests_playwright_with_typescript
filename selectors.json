@@ -27,8 +27,9 @@
         "textboxInput": "#getMe",
         "clearTextInput": "#clearMe",
         "noEditFieldInput": "#noEdit",
-        "readOnlyInput": "#dontwrite"
-    },
+        "readOnlyInput": "#dontwrite",
+        "allInputs": ".control > input"
+        },
     "buttonsPage":{
         "goToHomeBtn": "#home",
         "findLocationBtn": "#position",
@@ -37,5 +38,13 @@
         "disabledBtn": "//button[@title='Disabled button']",
         "beforePressingBtn": "button:has-text('Button Hold!')",
         "afterPressingBtn": "button:has-text('Button has been long pressed')"
+        },
+    "selectPage": {
+        "fruitsSelect": "#fruits",
+        "fruitNotification": "(//div[@class='content']//p[@class='subtitle'])[1]",
+        "superherosSelect": "#superheros",
+        "languageAndHeroNotification": ".card-content .field:nth-child(2) div[class='notification is-success'] p",
+        "languageSelect": "#lang",
+        "countrySelect": "#country"
     }
 }

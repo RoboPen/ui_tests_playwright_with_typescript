@@ -19,7 +19,7 @@
 - run test with the title
 `npx playwright test -g "title"`
 - run tests with specific tag
-`npx playwright test @tagname`
+`npx playwright test -g "@tagname"`
 - run on specific browser
 `npx playwright test --project=chromium`
 - view report  

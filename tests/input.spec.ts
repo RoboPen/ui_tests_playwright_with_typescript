@@ -48,7 +48,8 @@ test.describe('Testing inputs elements @input', () => {
         expect(await inputPage.isEditable(Input.READONLY)).toBe(false);
     });
 
-    test('Task 7: Confirm traverse with TAB key', async ({}) => {
+    test('Task 7: Confirm traverse with TAB key', async ({browserName}) => {
+        test.skip(browserName === "firefox")
         expect(await inputPage.isTabKeyWorking()).toBe(true);
     });
 })

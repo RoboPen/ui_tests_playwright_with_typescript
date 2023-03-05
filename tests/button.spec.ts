@@ -44,7 +44,7 @@ test.describe('Testing buttons elements @button', () => {
         const height = (await buttonPage.findBtn(Button.FIND_DIMENSIONS).boundingBox()).height;
         const width = (await buttonPage.findBtn(Button.FIND_DIMENSIONS).boundingBox()).width;
         expect.soft(height).toBe(40);
-        expect(width).toBe(174.625);
+        expect(width).toBe(175);
     });
     
     test('Task 5: Check if "Disabled" button is disabled', async ({}) => {

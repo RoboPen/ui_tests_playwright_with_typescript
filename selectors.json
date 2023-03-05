@@ -46,5 +46,14 @@
         "languageAndHeroNotification": ".card-content .field:nth-child(2) div[class='notification is-success'] p",
         "languageSelect": "#lang",
         "countrySelect": "#country"
+    }, 
+    "alertPage": {
+        "simpleAlertButton": "#accept",
+        "confirmAlertButton": "#confirm",
+        "promptAlertButton": "#prompt",
+        "modernAlertButton": "#modern",
+        "promptNotification": "#myName",
+        "modernAlertText": ".is-active  p",
+        "modernAlertTextClosingBtn": "//button[@aria-label='close']"
     }
 }

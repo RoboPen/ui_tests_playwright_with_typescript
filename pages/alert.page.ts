@@ -19,7 +19,7 @@ export default class AlertPage {
         return message;
     }
     async getConfirmAlertMessage() {
-       let message = "";
+        let message = "";
         this.page.on("dialog", async (dialog) => {
             message = dialog.message();
             await dialog.accept();

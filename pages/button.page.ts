@@ -5,7 +5,6 @@ import { Button } from '../enums/button.enum';
 export default class buttonsPage {
     constructor(page: Page){
         this.page = page;
-        
     }
 
     private page: Page;

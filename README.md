@@ -22,6 +22,8 @@
 `npx playwright test -g "@tagname"`
 - run on specific browser  
 `npx playwright test --project=chromium`
+- run tests using script defined in package.json file  
+example: `npm run tests:alert`
 - view report  
 `npx playwright show-report`
 

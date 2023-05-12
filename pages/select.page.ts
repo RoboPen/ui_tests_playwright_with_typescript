@@ -4,7 +4,7 @@ import { Select } from '../enums/select.enum';
 import { Notification } from '../enums/notification.enum';
 
 
-export default class selectPage {
+export default class SelectPage {
     constructor(page: Page) {
         this.page = page;
 

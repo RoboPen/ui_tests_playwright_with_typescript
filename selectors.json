@@ -55,5 +55,13 @@
         "promptNotification": "#myName",
         "modernAlertText": ".is-active  p",
         "modernAlertTextClosingBtn": "//button[@aria-label='close']"
+    },
+    "framePage": {
+        "firstNameInput": "input[name='fname']",
+        "lastNameInput": "input[name='lname']",
+        "emailInput": "input[name='email']",
+        "text": "p[class='title has-text-info']",
+        "firstFrame": "#firstFr",
+        "innerFrame": "iframe[src='innerFrame']"
     }
 }

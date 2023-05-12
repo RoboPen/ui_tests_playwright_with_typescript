@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "tests:alert": "playwright test alert.spec.ts",
+    "tests:button": "playwright test button.spec.ts",
+    "tests:select": "playwright test select.spec.ts",
+    "tests:input": "playwright test input.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
